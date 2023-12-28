@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaTest1.MainWindow"
+        Title="AvaloniaTest1" Loaded="Window_Loaded">
+	<Window.Styles>
+		<Style Selector="Button.B1">
+			<Setter Property="Background" Value="Wheat"/>
+			<Setter Property="FontSize" Value="14"/>
+			<Setter Property="Margin" Value="5"/>
+			<Setter Property="Width" Value="120"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		</Style>
+	</Window.Styles>
+	<Grid RowDefinitions="auto,auto,auto,auto" VerticalAlignment="Stretch" Background="LightGray">
+		<ComboBox Name="selectPort" Grid.Row="0" HorizontalAlignment="Center" Margin="5" Width="150" />
+		<TextBlock Grid.Row="1" HorizontalAlignment="Center" Text="Text" FontSize="24"/>
+		<StackPanel Grid.Row="2" Orientation="Horizontal">			
+		<Button Name="connect" Classes="B1" Content="Подключиться" Click="Button_Click" />
+		<Button Name="poll" Classes="B1" Content="Опрос" Click="Button_Click" />
+		</StackPanel> 
+		<ListBox Name="listData" Grid.Row="3" Height="200"/>
+	</Grid>
+</Window>
