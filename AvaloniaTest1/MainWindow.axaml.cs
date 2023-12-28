@@ -99,7 +99,7 @@ namespace AvaloniaTest1
             {
                 serialMaster = null;
                 port.Close();
-                port = null;                
+                port = null; //ddd.               
             }
             port = new SerialPort(portName)
             {
