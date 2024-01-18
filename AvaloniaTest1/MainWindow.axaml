@@ -18,8 +18,9 @@
 		<ComboBox Name="selectPort" Grid.Row="0" HorizontalAlignment="Center" Margin="5" Width="150" />
 		<TextBlock Grid.Row="1" HorizontalAlignment="Center" Text="Text" FontSize="24"/>
 		<StackPanel Grid.Row="2" Orientation="Horizontal">			
-		<Button Name="connect" Classes="B1" Content="Подключиться" Click="Button_Click" />
+		<Button Classes="B1"  Name="connect" Content="Подключиться" Click="Button_Click" />
 		<Button Name="poll" Classes="B1" Content="Опрос" Click="Button_Click" />
+		<TextBlock ></TextBlock>
 		</StackPanel> 
 		<ListBox Name="listData" Grid.Row="3" Height="200"/>
 	</Grid>
