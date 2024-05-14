@@ -1,0 +1,5 @@
+netsh advfirewall set allprofiles state on/off   -вкл/откл фаервол
+net start hns - запуск сетевой службы
+net stop hns - остановка сетевой службы
+netstat -a   -активные подключения
+ping ip-адрес(напр.:192.168.100.176) определяет наличие соединения
