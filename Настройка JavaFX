@@ -115,3 +115,8 @@
         </plugins>
     </build>
 </project>
+
+
+4. Провести очистку в Maven(Clean)
+5. Собрать проект.
+6. Запустить Install в Maven.
