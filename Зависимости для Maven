@@ -1,0 +1,14 @@
+1.Modbus RTU/TCP.
+<dependency>
+      <groupId>com.intelligt.modbus</groupId>
+      <artifactId>jlibmodbus</artifactId>
+      <version>1.2.9.9</version>
+    </dependency>
+
+2. Последовательный порт 
+  <dependency>
+    <groupId>io.github.java-native</groupId>
+    <artifactId>jssc</artifactId>
+    <version>2.9.6</version>
+  </dependency>
+  </dependencies>
