@@ -3,3 +3,5 @@
    belsoft.com(libericaJDK)
 
 2.Для запуска по клику установить на Linux jarwrapper.
+
+3.Для Windows понизить среду JDK до 17 версии.
