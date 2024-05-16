@@ -7,3 +7,5 @@ sudo systemctl status display-manager -проверяет, какой диспл
 sudo dpkg-reconfigure [название дисплейного менеджера]  -попробуйте разные дисплейные менеджеры
 
 sudo adduser [user_name] dialout - делает доступным компорты(и скорее всего еще чтото)
+
+sudo apt install jarwrapper - устаеовка jarwrapper
