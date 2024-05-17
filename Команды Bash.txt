@@ -8,4 +8,6 @@ sudo dpkg-reconfigure [название дисплейного менеджер�
 
 sudo adduser [user_name] dialout - делает доступным компорты(и скорее всего еще чтото)
 
-sudo apt install jarwrapper - устаеовка jarwrapper
+sudo apt install jarwrapper - устаеновка jarwrapper
+
+java -cp <путь к jar-файлу> - Подключение CLASSPATH для проектов
