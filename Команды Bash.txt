@@ -11,3 +11,5 @@ sudo adduser [user_name] dialout - делает доступным компор�
 sudo apt install jarwrapper - устаеновка jarwrapper
 
 java -cp <путь к jar-файлу> - Подключение CLASSPATH для проектов
+
+$ sudo update-alternatives --config java  - Сменить версию JDK
