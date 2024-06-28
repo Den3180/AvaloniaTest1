@@ -19,3 +19,7 @@ User: astrasu
 4.СМСД(Курган)06.2024
 Имя: pkm
 Пароль: pkm12345!
+
+5.Учетка Astra Linux
+login:    d.lebedev@texnoprom.com
+password: MIGT104gb/64gb
