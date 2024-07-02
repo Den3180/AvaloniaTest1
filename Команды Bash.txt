@@ -15,3 +15,5 @@ java -cp <путь к jar-файлу> - Подключение CLASSPATH для 
 $ sudo update-alternatives --config java  - Сменить версию JDK
 
 $ sudo ufw allow <номер порта>/tcp  -разрешения tcp порту на прием(возможно и на передачу) данных от одного компа к другому
+
+sudo apt install blueman  -установка плагина для настройки Bluetooth соединения с БКМ
