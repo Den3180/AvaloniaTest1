@@ -17,3 +17,5 @@ $ sudo update-alternatives --config java  - Сменить версию JDK
 $ sudo ufw allow <номер порта>/tcp  -разрешения tcp порту на прием(возможно и на передачу) данных от одного компа к другому
 
 sudo apt install blueman  -установка плагина для настройки Bluetooth соединения с БКМ
+
+sudo apt install pulseaudio-module-bluetooth - установил на планшет, так как отваливалось соединение по bluetooth c БКМ5
