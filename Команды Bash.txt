@@ -19,3 +19,22 @@ $ sudo ufw allow <номер порта>/tcp  -разрешения tcp порт
 sudo apt install blueman  -установка плагина для настройки Bluetooth соединения с БКМ
 
 sudo apt install pulseaudio-module-bluetooth - установил на планшет, так как отваливалось соединение по bluetooth c БКМ5
+{
+   sudo bluetoothctl - Для управления адаптерами Bluetooth из командной строки используется инструмент bluetoothctl.
+   Это перезагрузка модуля Bluetooth
+
+bluetoothctl
+Then use this commands to show paired devices:
+
+devices
+And this should be have some output like this:
+
+Device XX:XX:XX:XX:XX:XX Device Name
+Then remove paired devices with this command:
+
+remove XX:XX:XX:XX:XX:XX
+And restart Bluetooth service:
+
+sudo service bluetooth restart
+}
+
