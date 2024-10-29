@@ -29,3 +29,11 @@
       4.10 Введите имя создаваемого правила.
       
       4.11 Нажмите кнопку «Готово».
+
+5.На 29.10.2024 версия JAVA машины в которой работаю:
+  Ноут: java 21.0.2 2024-01-16 LTS
+        Java(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)
+        Java HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)
+        JetBrains: 21 Oracle Open JDK 21.0.2
+ Тоже самое должно быть установлено и на устройствах, где запускается програма.
+
